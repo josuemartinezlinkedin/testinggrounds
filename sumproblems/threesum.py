@@ -23,6 +23,3 @@ def threeNumberSum(array, targetSum):
                 right -= 1
     return answers
 threeNumberSum(ay,target)
-
-ay= [0, 59, 30, 10, -2, 49, 17]
-target = 57
