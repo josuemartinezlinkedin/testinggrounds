@@ -32,3 +32,6 @@ class Solution:
     #returning first and second index value of where target was first and last located
     return [first, second]
     
+    """improvements would include not storing reversed list,
+    including second check in first while loop, removing some variables
+    """
