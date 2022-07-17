@@ -27,3 +27,17 @@ function solution2(A) {
         }
     }
 }
+
+//another vaiation with else statement removed
+function solution(A) {
+    // write your code in JavaScript (Node.js 8.9.4)
+    A.sort()
+    if (A.length < 2) { return A[0] }
+    let i = 0
+    for (let element of A) {
+        if (A[i] !== A[i + 1] && A[i] !== A[i - 1]) {
+            return A[i]
+        }
+        i++
+    }
+}
